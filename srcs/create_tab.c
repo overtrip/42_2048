@@ -6,7 +6,7 @@
 /*   By: jealonso <jealonso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/03/01 21:10:27 by jealonso          #+#    #+#             */
-/*   Updated: 2015/03/01 22:09:25 by jealonso         ###   ########.fr       */
+/*   Updated: 2015/03/01 22:40:25 by jealonso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int	**create_tab(void)
 			tab[j][i] = 0;
 		}
 	}
+	addrandom(tab);
 	addrandom(tab);
 	return (tab);
 }
